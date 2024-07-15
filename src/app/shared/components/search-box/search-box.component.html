@@ -1,0 +1,7 @@
+<input
+    [placeholder]="placeHolder"
+    type="text" 
+    class="form-control"
+    #searchBoxInput
+    (keyup.enter)="emitCriteria(searchBoxInput.value)"
+ >
